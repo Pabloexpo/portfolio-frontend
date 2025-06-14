@@ -1,0 +1,53 @@
+/* index.css */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+@theme {
+  --font-titles: "Orbitron", sans-serif;
+  --font-body: "Share Tech Mono", monospace;
+  --color-body: #0A0A0A;
+  --color-primary: #00FFAB;
+  --color-secondary: #FFD700;
+  --color-text: #E0E0E0;
+  --color-footer: #111111;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-body);
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+
+  font-weight: 700;
+
+}
+
+h2 {
+
+  font-weight: 400;
+
+}
+
+p,
+span,
+a,
+li,
+button,
+input,
+textarea {
+  font-family: var(--font-body);
+  font-weight: normal;
+
+}
+
+body {
+  background-color: var(--color-body);
+}
